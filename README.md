@@ -1,6 +1,6 @@
 # Angular 9 Example Charts
 
-> An Angular starter kit featuring [Angular 9.1.2](https://angular.io), [Angular CLI 9.1.1](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 9.1.2](https://angular.io), [Angular CLI 9.1.2](https://cli.angular.io/)
 
 
 ## Quick start
@@ -38,7 +38,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `npm run e2e`
 
 ### Author
-* Updated : 20/04/2020
+* Updated : 22/04/2020
 * Author  : danny
 
 ### Documentation
