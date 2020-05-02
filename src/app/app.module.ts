@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ExampleChartsModule } from './example-charts/example-charts.module';
+import { TutorialModule } from './example-charts/tutorial.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { ExampleChartsModule } from './example-charts/example-charts.module';
   ],
   imports: [
     BrowserModule,
-    ExampleChartsModule
+    TutorialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,13 +1,13 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
-import { ExampleChartsModule } from './example-charts/example-charts.module';
+import { TutorialModule } from './example-charts/tutorial.module';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        ExampleChartsModule,
+        TutorialModule,
       ],
       declarations: [
         AppComponent
