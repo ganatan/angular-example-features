@@ -38,7 +38,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `npm run e2e`
 
 ### Author
-* Updated : 02/05/2020
+* Updated : 07/05/2020
 * Author  : danny
 
 ### Documentation
