@@ -1,6 +1,6 @@
 # Angular 10 Example Charts
 
-> An Angular starter kit featuring [Angular 10.1.2](https://angular.io), [Angular CLI 10.1.2](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 10.2.3](https://angular.io), [Angular CLI 10.2.0](https://cli.angular.io/)
 
 
 ## Quick start
@@ -38,7 +38,6 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `npm run e2e`
 
 ### Author
-* Updated : 30/09/2020
 * Author  : danny
 
 ### Documentation
