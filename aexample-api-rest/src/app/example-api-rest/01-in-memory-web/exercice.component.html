@@ -1,0 +1,50 @@
+<div class="row">
+  <div class="col-12">
+    <div class="card">
+      <h5 class="card-title text-center text-primary font-weight-bold">Items List</h5>
+      <div class="row text-center pb-4">
+        <div class="col-12">
+          <button type="button" class="btn btn-primary btn-sm mr-2" (click)="onReset()">Reset</button>
+          <button type="button" class="btn btn-primary btn-sm mr-2" (click)="onRead()">Read</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <div *ngIf="!itemsLoaded" class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+      </div>
+      <div *ngIf="itemsLoaded" class="row">
+        <div class="col-12">
+          <table class="table table-bordered table-sm table-striped text-center">
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Director</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of items; let i=index" (click)="onSelectItem(item)">
+                <td style="cursor: pointer">{{ item.id }}</td>
+                <td style="cursor: pointer">{{ item.name }}</td>
+                <td style="cursor: pointer">{{ item.director }}</td>
+                <td style="cursor: pointer">{{ item.date }}</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Director</th>
+                <th>Date</th>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

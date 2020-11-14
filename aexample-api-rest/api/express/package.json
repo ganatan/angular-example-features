@@ -1,0 +1,24 @@
+{
+  "name": "express-api-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "start-old": "cross-env NODE_ENV=dev node app",
+    "prod": "cross-env NODE_ENV=prod node app"
+  },
+  "author": {
+    "name": "danny",
+    "email": "dannyganatan@gmail.com",
+    "url": "https://www.ganatan.com/"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "1.4.5",
+    "cors": "2.8.5",
+    "cross-env": "7.0.2",
+    "express": "4.17.1",
+    "nodemon": "2.0.4"
+  }
+}

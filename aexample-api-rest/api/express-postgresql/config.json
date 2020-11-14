@@ -1,0 +1,18 @@
+{
+  "dev": {
+    "url": "http://localhost:5201/",
+    "port": 5201,
+    "database": "mock",
+    "user": "postgres",
+    "password": "Trustno1",
+    "formatting" : "MM/DD/YYYY"
+  },
+  "prod": {
+    "url": "http://www.mysiteweb.com:5201/",
+    "port": 5001,
+    "database": "mock",
+    "user": "postgres",
+    "password": "Trustno1",
+    "formatting" : "MM/DD/YYYY"
+  }
+}

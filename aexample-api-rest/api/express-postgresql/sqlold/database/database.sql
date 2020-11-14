@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS movie_pg;
+CREATE DATABASE movie_pg;
