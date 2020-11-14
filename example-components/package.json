@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ganatan/angular-example-components.git"
+    "url": "https://github.com/ganatan/angular-example-features.git"
   },
   "author": {
     "name": "danny",
@@ -20,9 +20,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ganatan/angular-example-components/issues"
+    "url": "https://github.com/ganatan/angular-example-features/issues"
   },
-  "homepage": "https://github.com/ganatan/angular-example-components#readme",
+  "homepage": "https://github.com/ganatan/angular-example-features#readme",
   "private": true,
   "dependencies": {
     "@angular/animations": "11.0.0",

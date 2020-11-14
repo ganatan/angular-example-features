@@ -9,13 +9,6 @@
 
 # dependencies
 /node_modules
-package-lock.json
-
-
-/api/express/node_modules
-/api/express-mysql/node_modules
-/api/express-postgresql/node_modules
-
 
 # profiling files
 chrome-profiler-events*.json
