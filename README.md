@@ -1,16 +1,22 @@
-# Angular 10 Example Charts
+# Angular 10 Example Features
 
-> An Angular starter kit featuring [Angular 10.2.3](https://angular.io), [Angular CLI 10.2.0](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 11.0.0](https://angular.io), [Angular CLI 11.0.1](https://cli.angular.io/)
 
 
 ## Quick start
 
 ```bash
 # clone the repo
-git clone https://github.com/ganatan/angular-example-charts.git
+git clone https://github.com/ganatan/angular-example-features.git
 
-# change directory
+# select a directory
+cd angular-example-api-rest
 cd angular-example-charts
+cd angular-example-components
+cd angular-example-leaflet
+cd angular-example-reactive-form
+cd angular-example-services
+cd angular-example-template-drive-forms
 
 # install the repo with npm
 npm install
