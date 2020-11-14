@@ -10,13 +10,13 @@
 git clone https://github.com/ganatan/angular-example-features.git
 
 # select a directory
-cd angular-example-api-rest
-cd angular-example-charts
-cd angular-example-components
-cd angular-example-leaflet
-cd angular-example-reactive-form
-cd angular-example-services
-cd angular-example-template-drive-forms
+cd example-api-rest
+cd example-charts
+cd example-components
+cd example-leaflet
+cd example-reactive-form
+cd example-services
+cd example-template-drive-forms
 
 # install the repo with npm
 npm install
