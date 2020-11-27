@@ -29,8 +29,8 @@ export class ExerciceComponent implements OnInit {
   getItems(): void {
     this.itemsLoaded = false;
     this.url = this.tutorialService.getUrl();
-    let url = 'https://jsonplaceholder.typicode.com/photos/1';
-    this.http.get(this.url + this.endpoint)
+    const url = 'https://jsonplaceholder.typicode.com/photos/1';
+    this.http.get(this.url + this.endpoint);
     this.http.get(url)
       .subscribe(
         data => {
