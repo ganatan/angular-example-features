@@ -1,6 +1,6 @@
 # Angular 10 Example Features
 
-> An Angular starter kit featuring [Angular 11.0.0](https://angular.io), [Angular CLI 11.0.1](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 11.0.4](https://angular.io), [Angular CLI 11.0.4](https://cli.angular.io/)
 
 
 ## Quick start
@@ -21,10 +21,12 @@ git clone https://bitbucket.org/ganatan/angular-example-features.git
 cd example-api-rest
 cd example-charts
 cd example-components
+cd example-directives
 cd example-leaflet
 cd example-reactive-form
 cd example-services
 cd example-template-drive-forms
+cd example-testing
 
 # install the repo with npm
 npm install
